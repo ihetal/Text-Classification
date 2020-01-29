@@ -1,4 +1,4 @@
-# Text-classification-and-summarization
+# Text-classification
 
 ### Text classification:
 Classifying the news articles into 4 categories namely Health, Business, Entertainment, Technology using the following ML models:  
@@ -47,12 +47,4 @@ Raw text has unwanted characters (\n,\t,$ etc) and contains stop words (a, an, t
 |3. | Naive Bayes | 94.69| 94.54|
 |4. | Random forest |92.2 | 92.05|
 |5. | K-NN |94.3 | 94.59|
-
-
-#### Text summarization
-| S.no | Model | Rouge-1 |
-|------|-------|----------|
-|1. | Text rank | 59.2 |
-|2. | K-means clustering|54.7 |
-|3. | Latent semantic analysis | 52.1|
 
