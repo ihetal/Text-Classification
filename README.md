@@ -9,19 +9,10 @@ Classifying the news articles into 4 categories namely Health, Business, Enterta
 5. K-NN
 
 
-### Text summarization:
-Summarize the news articles using Extractive text summarization ( selecting top sentences from the article)
-
-#### Models for extractive summarization:
-1. Text rank algorithm (variation of page rank)
-2. K-means clustering
-3. Latent semantic analysis
-
-
 ### Data:
 Scrapped news articles from urls provided by UCI Machine Learning repository [link](http://archive.ics.uci.edu/ml/datasets/News+Aggregator)  
 For scrapping the news articles, ```Newspaper3k``` [library](https://newspaper.readthedocs.io/en/latest/) built in Python was used. The library contains ```nlp()``` method using which *keywords* and *summary* of the news article can be extracted.   
-Article's content and summary have been scrapped to create the data for the project. [Code](https://github.com/saiharshithreddy/Text-classification-and-summarization/blob/master/Data%20collection/data%20scrapper.ipynb)  
+Article's content have been scrapped to create the data for the project. 
 
 ### Installation
 The following libraries of Python have to be installed: ```pandas```, ```sklearn```, ```ntlk```, ```newspaper3k```  
